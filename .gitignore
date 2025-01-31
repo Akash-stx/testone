@@ -1,0 +1,12 @@
+
+
+# Dependency directories
+node_modules
+
+# Distribution directories
+
+# Optional npm cache directory
+.npm
+.nx
+
+
