@@ -2,8 +2,8 @@
   "name": "cloudex",
   "version": "1.0.0",
   "description": "A professional NPM package",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "index.js",
+  "module": "index.js",
   "type": "module",
     "scripts": {
     "build": "babel src --out-dir dist && npm pack"
