@@ -1,0 +1,20 @@
+{
+  "name": "cloudex",
+  "version": "1.0.0",
+  "description": "A professional NPM package",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+    "scripts": {
+    "build": "babel src --out-dir dist && npm pack"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3"
+  },
+   "peerDependencies": {
+    "react-redux": "8.1.3"
+  }
+}
